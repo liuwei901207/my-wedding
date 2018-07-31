@@ -1,19 +1,17 @@
 <template>
-  <div class="page">
-
-
-    <!-- 页脚权限声明 -->
-    <TheFooter></TheFooter>
-    <!-- /页脚权限声明 -->
+  <div class="weui-footer">
+    <div class="weui-footer__text">Copyright © 2018-2019 Liuwei</div>
   </div>
 </template>
 
 <script>
-  import TheFooter from '../../components/theFooter'
-
   export default {
     // 组件名
-    name: '1',
+    name: 'theFooter',
+    // 组件构造
+    mixins: [],
+    // 组件扩展
+    extends: {},
     // 组件属性
     props: {},
     // 组件数据
@@ -25,9 +23,7 @@
     // 组件计算属性
     computed: {},
     // 组件挂载
-    components: {
-      TheFooter
-    },
+    components: {},
     // 钩子函数
     beforeCreate () {
     },
