@@ -1,18 +1,24 @@
+<style scoped>
+
+</style>
+
 <template>
-  <!-- Footer -->
-  <footer>
-    <div class="footer-lines">
-      <div class="container">
-        <p>Andre & Emile© 2016 Privacy</p>
+  <nav class="navbar navbar-default">
+    <div class="container">
+      <div class="navbar-header">
+        <a class="logo" href="/">
+          <img class="navbar-logo"
+               src="https://lg-hko9gpjg-1253449358.cos.ap-shanghai.myqcloud.com/logo_words.png"
+               alt="logo"></a>
       </div>
     </div>
-  </footer>
+  </nav>
 </template>
 
 <script>
   export default {
     // 组件名
-    name: 'theFooter',
+    name: 'theHeader',
     // 组件构造
     mixins: [],
     // 组件扩展
@@ -40,7 +46,3 @@
     methods: {}
   }
 </script>
-
-<style scoped>
-
-</style>

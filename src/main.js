@@ -1,7 +1,8 @@
 import Vue from 'vue'
 import App from './App'
 
-import './assets/weui.css'
+import './assets/vendor/weui.css'
+import './assets/css/main.css'
 
 Vue.config.productionTip = false
 App.mpType = 'app'

@@ -1,18 +1,19 @@
+<style scoped>
+
+</style>
+
 <template>
-  <!-- Footer -->
-  <footer>
-    <div class="footer-lines">
-      <div class="container">
-        <p>Andre & Emile© 2016 Privacy</p>
-      </div>
+  <div class="loader">
+    <div class="icon">
+      <img class="icon-img" src="https://lg-hko9gpjg-1253449358.cos.ap-shanghai.myqcloud.com/hearts.svg" alt="hearts"/>
     </div>
-  </footer>
+  </div>
 </template>
 
 <script>
   export default {
     // 组件名
-    name: 'theFooter',
+    name: 'theLoader',
     // 组件构造
     mixins: [],
     // 组件扩展
@@ -40,7 +41,3 @@
     methods: {}
   }
 </script>
-
-<style scoped>
-
-</style>
