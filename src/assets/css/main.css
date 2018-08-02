@@ -41,10 +41,13 @@ h2 {
 	font-family: "Playfair Display", serif;
 	margin: 0 0 20px;
 	text-transform: uppercase;
+	text-align: center;
 }
 
 h3 {
 	font-size: 1.5em;
+	text-align: center;
+	margin: 36rpx 0;
 }
 
 h4 {
@@ -78,7 +81,7 @@ ol, ul {
 }
 
 section {
-	padding: 96px 0;
+	padding: 0 0 192rpx 0;
 }
 
 @media screen and (max-width: 767px) {
@@ -281,16 +284,14 @@ nav.navbar.navbar-default {
 	background: #30302f;
 	border: none;
 	border-radius: 0;
-	padding: 8px 0;
-	position: fixed;
-	top: 0;
+	padding: 16rpx 0;
 	width: 100%;
 	z-index: 999;
 }
 
 nav.navbar.navbar-default::before {
 	display: block;
-	border-width: 0 0 2px 0;
+	border-width: 0 0 4rpx 0;
 	border-style: dashed;
 	border-color: #e4e4d7;
 	content: '';
@@ -299,7 +300,7 @@ nav.navbar.navbar-default::before {
 
 nav.navbar.navbar-default::after {
 	display: block;
-	border-width: 0 0 2px 0;
+	border-width: 0 0 4rpx 0;
 	border-style: dashed;
 	border-color: #e4e4d7;
 	content: '';
@@ -307,6 +308,40 @@ nav.navbar.navbar-default::after {
 }
 
 .navbar-logo {
-	width: 73px;
+	width: 150rpx;
 	height: 51px;
+}
+
+/* Footer */
+footer{
+	background: #30302f;
+	border: none;
+	border-radius: 0;
+	width: 100%;
+	color: #fff;
+	padding: 16rpx 0;
+	text-align: center;
+}
+
+footer .footer-lines{
+	height: 100%;
+	padding: 25rpx 0;
+}
+
+footer::before {
+	display: block;
+	border-width: 0 0 4rpx 0;
+	border-style: dashed;
+	border-color: #e4e4d7;
+	content: '';
+	width: 100%;
+}
+
+footer::after {
+	display: block;
+	border-width: 0 0 4rpx 0;
+	border-style: dashed;
+	border-color: #e4e4d7;
+	content: '';
+	width: 100%;
 }
